@@ -11,7 +11,7 @@ ClientID: 123ff
 
 3. Install uploader
 ```bash
-go get -u github.com/Anakros/imgur-uploader
+go get github.com/Anakros/imgur-uploader
 ```
 
 4. Start uploading everything
