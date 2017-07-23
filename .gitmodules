@@ -1,0 +1,3 @@
+[submodule "vendor/github.com/spf13/viper"]
+	path = vendor/github.com/spf13/viper
+	url = https://github.com/spf13/viper
