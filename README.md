@@ -17,10 +17,10 @@ go get github.com/Anakros/imgur-uploader
 4. Start uploading everything
 
 ```bash
-./imgur-uploader -i ~/Downloads/12345.jpg
+imgur-uploader -i ~/Downloads/12345.jpg
 ```
 5. Or deleting if you uploaded something wrong
 
 ```bash
-./imgur-uploader -d 345345DeleteHash77
+imgur-uploader -d 345345DeleteHash77
 ```
