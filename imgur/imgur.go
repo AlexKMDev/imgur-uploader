@@ -128,7 +128,7 @@ func Delete(hash string) (*bool, error) {
 	resp, err := client.Do(req)
 
 	if err != nil {
-		fmt.Println("Failure : ", err)
+		return nil, err
 	}
 
 	respBody, _ := ioutil.ReadAll(resp.Body)
